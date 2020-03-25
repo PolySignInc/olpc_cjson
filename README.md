@@ -1,3 +1,7 @@
+This fork is just a copy of git@github.com:PolySignInc/tough.git/olpc_cjson
+cargo can only take full crates and we cannot compile other modules in tough for powerpc so selectively copying this 
+one here in a separate repo.
+
 `olpc-cjson` provides a [`serde_json::Formatter`] to serialize data as [canonical JSON], as defined by OLPC and used in [TUF]. It is developed as part of [tough], a Rust library for using TUF repositories.
 
 [`serde_json::Formatter`]: ../serde_json/ser/trait.Formatter.html
